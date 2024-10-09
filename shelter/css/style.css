@@ -1,0 +1,27 @@
+body {
+    width: 1280px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.start-screen {
+    height: 908px;
+    background-image: url(../images/png/start-screen-gradient-background.png), url(../images/png/start-screen-background.png);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.about{
+    height: 588px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
